@@ -16,7 +16,7 @@ while(userOrder !=="house" && userOrder !== "hotel"){
     {console.log("index is"+i);
         if (userOrder ==="house")
 {orderImage=orderImage +'<img src="images/house.png">'   ;}
-else if (orderImage ==="hotle")
+else if (orderImage ==="hotel")
 {orderImage=orderImage +'<img src="images/hotle.png">';}
 console.log(orderImage);
     }return orderImage;
