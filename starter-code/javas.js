@@ -1,4 +1,4 @@
-var today =new Data();
+var today =new Date();
 var hourNow =today.getHours();
 var greeting;
 if (hourNow > 18) {
@@ -14,5 +14,4 @@ else {
 
 }
 document.write('<h3>' + greeting + '</h3>');
-    
-    
+
