@@ -20,7 +20,13 @@ h1, h3, p {
     color: #5a514c;
     text-align: center;}
 
-
+button{
+    background: #FCC158;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
 h1 {
     margin: 50px 0 0 50px;
     height: 175px;
@@ -50,13 +56,29 @@ p {
     font-weight: bold;
     text-align: center;
     border-right: 1px solid #bcbdc0;
-    border-bottom: 1px solid #bcbdc0;
+    /* border-bottom: 1px solid #bcbdc0; */
     border-left: 1px solid #bcbdc0;}
+
+p#click1{
+    margin: 0 0 0 50px;
+    padding: 25px 0 0 0;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 0.80em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    border-left: 1px solid #bcbdc0;
+    border-right: 1px solid #bcbdc0;
+
+}
 
 /* Border under box when you move script in the last example */
 p + script + h3 {
     padding-bottom: 20px;
-    border-bottom: 1px solid #bcbdc0;}
+    /* border-bottom: 1px solid #bcbdc0; */
+}
 
 /* Fix for full-screen background image: Chrome on Android */
 html{
@@ -64,3 +86,7 @@ html{
     min-height:100%;}
 body{
     min-height:100%;}
+
+    h3{
+        padding: 20px 0px;
+    }
