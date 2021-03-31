@@ -1,6 +1,7 @@
 var name1=prompt('waht is your Name?');
 var age=prompt('year of porn ?');
-
+alert('hello');
+confirm('Are you sure you wanna delete this?')
 let myAge=document.getElementById('click1');
 var today =new Date();
 

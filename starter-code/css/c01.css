@@ -90,3 +90,33 @@ body{
     h3{
         padding: 20px 0px;
     }
+
+    div.myBox{
+        width: 200px;
+  border: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        font-size:16px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+    .myBox .box:nth-child(1){
+background-color: red;
+    }
+ .myBox .box:nth-child(2){
+        background-color: black;
+            }
+ .myBox .box:nth-child(4){
+ background-color: red;
+    }
+
+    .myBox .box:nth-child(3){
+        background-color:black;
+            } 
