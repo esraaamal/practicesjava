@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 var showOrder =function (){
     var userOrder;
     var numberOfImage;
@@ -29,7 +24,11 @@ var showOrder =function (){
         return orderImage;
    
     }
-    document.write('<p>'+showOrder()+ '</p>' )
+    document.write('<p>'+showOrder()+ '</p>')
+    let numberImg=document.images.length;
+    console.log(numberImg)
+
+    document.write('<p>'+`Number of Images : ${numberImg}`+'</p>');
     
 
 
